@@ -9,7 +9,7 @@
 
 int main(int ac, char **argv)
 {
-char *prompt = "(User) ~$";
+char *prompt = "(User) ~$ ";
 char *lineptr;
 size_t n = 0;
 
