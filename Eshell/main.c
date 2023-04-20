@@ -14,7 +14,8 @@ char *lineptr;
 size_t n = 0;
 
 /* declaring void variables */
-(void)ac; (void)argv;
+(void)ac;
+(void)argv;
 
 printf("%s", prompt);
 getline(&lineptr, &n, stdin);
