@@ -12,6 +12,8 @@
 #include <fcntl.h>
 #include <errno.h>
 
+#include <signal.h>
+
 /* for read/write buffers */
 #define READ_BUF_SIZE 1024
 #define WRITE_BUF_SIZE 1024
@@ -256,6 +258,4 @@ int replace_alias(info_t *);
 int replace_vars(info_t *);
 int replace_string(char **, char *);
 
-
 #endif
-
