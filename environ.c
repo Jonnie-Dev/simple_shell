@@ -3,7 +3,7 @@
 /**
  * _myenv - prints the current environment
  * @info: Structure containing potential arguments. Used to maintain
- *          constant function prototype.
+ * constant function prototype.
  * Return: Always 0
  */
 
@@ -43,10 +43,10 @@ return (NULL);
 
 /**
  * _mysetenv - Initialize a new environment variable,
- *             or modify an existing one
+ * or modify an existing one
  * @info: Structure containing potential arguments. Used to maintain
- *        constant function prototype.
- *  Return: Always 0
+ * constant function prototype.
+ * Return: Always 0
  */
 
 int _mysetenv(info_t *info)
@@ -65,7 +65,7 @@ return (1);
 
 
 /**
- * _myunsetenv - Remove an environment variable
+ * _myunsetenv - removes an environment variable
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  * Return: Always 0
@@ -89,7 +89,7 @@ return (0);
 }
 
 /**
- * populate_env_list - populates env linked list
+ * populate_env_list - populates env linked list with text
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  * Return: Always 0
@@ -108,7 +108,4 @@ add_node_end(&node, environ[i], 0);
 info->env = node;
 
 return (0);
-
 }
-
-
